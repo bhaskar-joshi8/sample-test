@@ -1,0 +1,90 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>bdd-test-project</groupId>
+  <artifactId>bdd-test-project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>bdd-test-project</name>
+  <description>bdd-test-project</description>
+  
+  <dependencies>
+  
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>3.141.59</version>
+		</dependency>
+
+ 		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>6.9.1</version>
+		</dependency> 
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-core</artifactId>
+		    <version>6.9.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>6.9.1</version>
+		    <scope>test</scope>
+		</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+		<dependency>
+		    <groupId>info.cukes</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>1.2.5</version>
+		    <scope>test</scope>
+		</dependency> 
+  	<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>4.13.1</version>
+		    <scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+		    <groupId>io.rest-assured</groupId>
+		    <artifactId>rest-assured</artifactId>
+		    <version>4.3.0</version>
+		    <scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+		<dependency>
+		    <groupId>io.rest-assured</groupId>
+		    <artifactId>json-path</artifactId>
+		    <version>4.3.0</version>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hamcrest/java-hamcrest -->
+		<dependency>
+		    <groupId>org.hamcrest</groupId>
+		    <artifactId>java-hamcrest</artifactId>
+		    <version>2.0.0.0</version>
+		    <scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+		<dependency>
+		    <groupId>org.hamcrest</groupId>
+		    <artifactId>hamcrest-core</artifactId>
+		    <version>2.2</version>
+		    <scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library -->
+		<dependency>
+		    <groupId>org.hamcrest</groupId>
+		    <artifactId>hamcrest-library</artifactId>
+		    <version>2.2</version>
+		    <scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.1.0</version>
+		    <scope>test</scope>
+		</dependency>
+  </dependencies>
+</project>
